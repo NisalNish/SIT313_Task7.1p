@@ -1,0 +1,119 @@
+/* Main Page */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f8f9fa; /* Optional: Adds a light background */
+  border-bottom: 1px solid #ddd;
+}
+
+.devdeakin {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-bar {
+  flex-grow: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 0 20px;
+  font-size: 16px;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 10px;
+}
+
+.post-button, .login-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px; /* Consistent width */
+  text-align: center;
+}
+
+.post-button:hover, .login-button:hover {
+  background-color: #0056b3;
+}
+
+.post-button:focus, .login-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Login Page */
+.login-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.signup-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.signup-button:hover {
+  background-color: #0056b3;
+}
+
+.login-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+/* Register Page */
+.register-heading {
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.register-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.create-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.create-button:hover {
+  background-color: #0056b3;
+}
